@@ -1,8 +1,8 @@
 require 'formula'
 
 class GitIgnore < Formula
-  homepage 'https://github.com/yuroyoro/git-ignore'
-  head 'https://github.com/yuroyoro/git-ignore.git'
+  homepage 'https://github.com/bundai223/git-ignore'
+  head 'https://github.com/bundai223/git-ignore.git'
 
   def install
     system "make", "prefix=#{libexec}", "install"
