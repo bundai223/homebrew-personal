@@ -1,4 +1,4 @@
-class AquaSKK < Cask
+cask :v1 => 'aquaskk' do
   version '4.2.2'
   sha256 '51f8279a028b07c1dce03b34692707cbef0d438c68c02cad0aa21ad166b8c76b'
 
